@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="Stylesheet" type="text/css" href="../style.css"/>
+</head>
+<body>
+    <!--ancora-->
+    <h2 id="Secao1"></h2>
+    <a href="../index.html" taret="_blank">
+        Acesse a pagina principal
+    </a>
+<br>
+<br>
+<!--Formulário-->
+<h2 align="center"> Formulário</h2>
+<form action="arquivo.sql" method="post">
+    <p>Nome:<input type="text" name="nome" placeholder="Escreva seu nome" size="60"/>a</p>
+    <p>Telefone: <input type="tel" placeholder="00000000000" maxlength="11"/></p>
+    <p>Data de Nascimento: <input type="date"/></p>
+    <p>Senha<input type="password" maxlength="8"/>
+        <small>A senha só poderá ter 8 caracteres</small></p>
+    <p>Email: <input type="email"/></p>
+    <p>Idade<input type="number"/></p>
+
+    Comentários:
+    <textarea rows="20" cols="30"></textarea>
+    <!--Estrutura de Opções-->
+    <p>Album Favorito:
+     <select>
+       <option></option>
+       <option value="Gorillaz">Gorillaz</option>
+       <option value="Demon Days">Demon Days</option>
+       <option value="Plastic Beach">Plastic Beach</option>
+    </select>
+    </p>
+    <!--No site usar para cada pagina do personagen-->
+    <p>Personagem Preferido:
+        <br>
+        <input type="radio" name=""/> 2D
+        <br>
+       <input type="radio" name=""/> Murdoc Niccals
+        <br>
+        <input type="radio" name=""/> Noodle
+        <br>
+       <input type="radio" name=""/> Russel Hobbs
+        <br>
+    </p>
+    <!--Checbook-->
+    <p>
+        <input type="checkbox" name="Confirmar"/>
+        Aceito fazer parte da Pagina Web sobre o Gorillaz
+    </p>
+      <input type="reset"/>
+      <input type="submit"/>
+      <!--Fieldset,-->
+      <fieldset>
+        <h3 align="center">Partcipar no Grupo de Fãs</h3>
+        <legend>Dados Pessoais</legend>
+        <label>Nome: <input type=text/></label>
+        <label>Email: <input type=text/></label>
+        <label>Numero de Telefone: <input type="text"/></label>
+      </fieldset>
+    
+</form>
+<!--ancora-->
+<a href="#Secao1">Acesse o topo da pagina</a>
+</body>
+
+</html>

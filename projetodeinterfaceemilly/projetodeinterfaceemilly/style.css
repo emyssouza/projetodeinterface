@@ -1,0 +1,39 @@
+/*Primeiras configurações*/
+body{
+ background-color: rgb(129, 80, 92);
+ border: rgb(255, 255, 255) solid 3px;
+ margin: 30 auto;
+}
+p{
+   text-align: center;
+   color:rgb(121, 33, 48)
+}
+form{ 
+    text-align: center;
+    color:rgb(22, 5, 31)
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0c0b0b;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+h2{
+    font-size: 20px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ddd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+form {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ddd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+ 
